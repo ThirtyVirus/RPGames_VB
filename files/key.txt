@@ -1,0 +1,29 @@
+Object Hit Detection Modes:
+**X**
+0- No Hit Detection
+1- Hit Detection
+2- Teleports Entity
+
+**Y**
+0- Everything
+1- Players
+2- NPCs
+
+**Z**
+0- Cannot interact with
+1- Can only interact with from above
+2- Can only interact with from below
+3- Can only interact with from the left
+4- Can only interact with from the right
+5- Can interact with from all sides
+
+Object attributes:
+0- nothing (only for looks)
+1- sign (displays text)
+2- container (stores items)
+3- door (brings you elseware)
+4- triggers an event
+
+Object Shading:
+0- no shading
+1- small box shading

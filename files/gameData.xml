@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<tiles>
+		<grid id="0" minSpeed="1.5" maxSpeed="2.5" stepSound="none" soundQuantity="0" />
+		<stone id="1" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/stone" soundQuantity="6" />
+		<grass id="2" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/grass" soundQuantity="6" />
+		<wood id="3" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/wood" soundQuantity="6" />
+		<woodStairs id="4" minSpeed="1.2" maxSpeed="1.3" stepSound="sfx/step/wood" soundQuantity="6" />
+		<redWood id="5" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/wood" soundQuantity="6" />
+		<woodWall id="6" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/wood" soundQuantity="6" />
+		<woodWallFlip id="7" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/wood" soundQuantity="6" />
+		<darkness id="8" minSpeed="1.5" maxSpeed="2.5" stepSound="none" soundQuantity="0" />
+		<pavement id="9" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/stone" soundQuantity="6" />
+		<walkway id="10" minSpeed="1.5" maxSpeed="2.5" stepSound="none" soundQuantity="0" />
+		<stoneStairs id="11" minSpeed="1.2" maxSpeed="1.3" stepSound="sfx/step/stone" soundQuantity="6" />
+		<stoneFloor id="12" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/stone" soundQuantity="6" />
+		<stoneStairs2 id="13" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/stone" soundQuantity="6" />
+		<window id="14" minSpeed="1.5" maxSpeed="2.5" stepSound="none" soundQuantity="0" />
+		<grass2 id="15" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/grass" soundQuantity="6" />
+		<water id="16" minSpeed="1" maxSpeed="1.4" stepSound="none" soundQuantity="0" />   
+		<whiteTile id="17" minSpeed="1.5" maxSpeed="2.5" stepSound="sfx/step/stone" soundQuantity="6" />
+        <ice id="18" minSpeed="1.5" maxSpeed="2.5" stepSound="none" soundQuantity="0" />
+		<sand id="19" minSpeed="1.5" maxSpeed="2.5" stepSound="none" soundQuantity="0" />
+	</tiles>
+	<objects>
+		<invisBarrier id="0" width="1" height="1" type="0" castShadow="0" collisionMap="1 " />
+		<npcBarrier id="0.1" width="1" height="1" type="0" castShadow="0" collisionMap="1.2 " />
+		<rock id="1" width="3" height="3" type="0" castShadow="1" collisionMap="0 0 0 0 0 0 1 1 1 " />
+		<wall id="2" width="1" height="2" type="0" castShadow="1" collisionMap="0 1 " />
+		<wall2 id="2.1" width="1" height="2" type="0" castShadow="1" collisionMap="0 1 " />
+		<mailbox id="3" width="1" height="2" type="2" castShadow="1" collisionMap="0 1.0.2 " openSound="sfx\interact\openChest" closeSound="sfx\interact\closeChest" />
+		<crate id="4" width="1" height="1" type="2" castShadow="2" collisionMap="1.0.5 " openSound="sfx\interact\openChest" closeSound="sfx\interact\closeChest" />
+		<bigCrate id="4.1" width="2" height="2" type="2" castShadow="2" collisionMap="0.0.5 0.0.5 1.0.5 1.0.5 " openSound="sfx\interact\openChest" closeSound="sfx\interact\closeChest" />
+		<backpack id="5" width="1" height="1" type="2" castShadow="0" collisionMap="1.0.5 " openSound="sfx\interact\openChest" closeSound="none" />
+		<woodChest id="6" width="1" height="1" type="2" castShadow="1" collisionMap="1.0.5 " openSound="sfx\interact\openChest" closeSound="sfx\interact\closeChest" />
+		<whiteFence id="7" width="1" height="2" type="0" castShadow="1" collisionMap="0 1 " />
+		<whiteFence2 id="7.1" width="1" height="2" type="0" castShadow="1" collisionMap="0 1 " />
+		<sign id="8" width="2" height="2" type="1" castShadow="1" collisionMap="0 0 1.0.2 1.0.2 " />
+		<sign2 id="8.1" width="2" height="2" type="1" castShadow="1" collisionMap="0 0 1.0.2 1.0.2 " />
+		<tree id="9" width="6" height="8" type="0" castShadow="0" collisionMap="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.0.2 1.0.2 0 0 0 0 1.0.2 1.0.2 0 0 " />
+		<lab id="12" width="17" height="15" type="0" castShadow="1" collisionMap="none" />
+		<house id="12.1" width="15" height="19" type="0" castShadow="1" collisionMap="none" />
+		<flowers id="13" width="2" height="2" type="0" castShadow="0" collisionMap="none" />
+		<bookshelf id="14" width="3" height="3" type="0" castShadow="1" collisionMap="0 0 0 0 0 0 1 1 1 " />
+		<pottedPlant id="15" width="2" height="3" type="0" castShadow="1" collisionMap="0 0 0 0 1 1 " />
+		<table id="16" width="5" height="3" type="0" castShadow="2" collisionMap="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 " />
+		<serverSmall id="17" width="2" height="3" type="0" castShadow="1" collisionMap="0 0 0 0 1 1 " />
+		<serverBig id="17.1" width="2" height="4" type="0" castShadow="1" collisionMap="0 0 0 0 0 0 1 1 " />
+		<machine id="17.2" width="4" height="5" type="1" castShadow="1" collisionMap="0 0 0 0 0 0 0 0 0 0 0 0 1.0.5 1.0.5 1.0.5 1.0.5 1.0.5 1.0.5 1.0.5 1.0.5 " />
+		<emptyDesk id="17.3" width="4" height="3" type="0" castShadow="1" collisionMap="0 0 0 0 1 1 1 1 1 1 1 1 " />
+		<desk id="17.4" width="4" height="3" type="0" castShadow="1" collisionMap="0 0 0 0 1 1 1 1 1 1 1 1 " />
+		<pokedex id="17.5" width="2" height="2" type="0" castShadow="1" collisionMap="0 0 1 1 " />
+        <bed id="18" width="3" height="4" type="1" castShadow="1" collisionMap="0 0 0 1.0.5 1.0.5 1.0.5 1.0.5 1.0.5 1.0.5 1.0.5 1.0.5 1.0.5 " />
+        <woodDoor id="20" width="3" height="1" type="3" castShadow="1" collisionMap="2 2 2 " openSound="sfx\interact\openDoor" closeSound="sfx\interact\closeDoor" />
+	    <woodDoor2 id="20.1" width="1" height="3" type="3" castShadow="1" collisionMap="2 2 2 " openSound="sfx\interact\openDoor" closeSound="sfx\interact\closeDoor" />
+        <OnLever id="30" width="1" height="2" type="1" castShadow="0" collisionMap="none" />
+        <OffLever id="30.1" width="1" height="2" type="1" castShadow="0" collisionMap="none" />
+    </objects>
+	<items>
+		<Lantern id="0" Weight="3" Value="1000" MaxStack="1" Description="Lights an area around you" />
+		<Hitbox id="1" Weight="3" Value="5" MaxStack="64" Description="The debug item, duplicates itself if used." />
+		<Bomb id="2" Weight="1" Value="10" MaxStack="64" Description="Place one of these down for a small explosion" />
+		<Coin id="3" Weight="1" Value="0" MaxStack="512" Description="Can be used to purchase items from merchants" />
+		<Key id="4" Weight="1" Value="100" MaxStack="1" Description="Use this to open doors" />
+        <RaspberryPie id="5" Weight="5" Value="500" MaxStack="16" Description="A sugary, artificially flavoured, super sweet pie. Heals half of your HP." />
+	</items>
+</GameData>

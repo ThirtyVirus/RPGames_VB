@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>E:/Programming/RPGames Engine/RPGames Engine VB (Final)/RPGames Engine/Content/Sounds/music/battle.wav</SourceFile>
+  <SourceTime>2016-07-02T00:35:24-04:00</SourceTime>
+  <DestFile>E:/Programming/RPGames Engine/RPGames Engine VB (Final)/RPGames Engine/Content/bin/DesktopGL/Sounds/music/battle.xnb</DestFile>
+  <DestTime>2017-05-27T16:43:20.975037-04:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2016-03-30T02:36:08-04:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

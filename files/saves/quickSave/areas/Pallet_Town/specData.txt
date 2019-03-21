@@ -1,0 +1,1 @@
+150 150 100 music/town True Pallet_Town True

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menus>
+	<mainMenu>
+        <titleImage type="image" size="400,200" priority="0" texture="\textures\misc\title.png" />
+        <loadButton type="button" size= "250,50" priority="1" texure="\textures\buttons\250x50.png" selectedTexture="\textures\buttons\250x50s.png" font="2" text="Load Save" />
+    
+    </mainMenu>
+</Menus
